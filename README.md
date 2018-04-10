@@ -1,1 +1,5 @@
-# Usarei as branch para alterar os exercicios
+# Detalhes do Exercicios 1
+
+Sem muitos detalhes =)
+
+#end
