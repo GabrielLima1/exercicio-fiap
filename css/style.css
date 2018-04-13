@@ -1,15 +1,16 @@
-#cor-topo{
-  background-color: #B8DCD0;
+#img-topo{
+  /* margin-left: -90px ;
+  margin-top: -80px; */
   height: 40px;
-  width: 1270px;
-  margin-left: -90px ;
-  margin-top: -80px;
-
+  width: 120%;
+  background-image: url("../image/bg01.png");
 }
 
 body{
   /* padding: 20px; */
-  margin: 90px;
+  /* margin: 90px; */
+  position: relative;
+  font-family: "Arial";
 }
 
 nav a{
@@ -20,6 +21,7 @@ nav a{
   text-decoration: none !important;
   padding: 30px;
   margin-top: 15px;
+  font-weight: 550;
 }
 
 #logo{
@@ -54,10 +56,9 @@ nav a{
 }
 
 .segura-cont{
-  background-color: red;
-  width: 30%;
+  margin-left: -4px;
+  width: 25%;
   margin-left: 5px;
-  padding: 15px;
   float: left;
 }
 
@@ -68,10 +69,11 @@ nav a{
 
 .segura-foot{
   /* clear: left; */
-  background-color: #B8DCD0;
+  background-image: url("../image/bg01.png");
+  height: 40px;
+  width: 33%;
   float: left;
   text-align: center;
-  width: 33%;
 }
 
 .segura-foot p{
