@@ -1,19 +1,83 @@
-*{
-  padding: 10px;
-  margin: 10px;
+#cor-topo{
+  background-color: #B8DCD0;
+  height: 40px;
+  width: 1270px;
+  margin-left: -90px ;
+  margin-top: -80px;
+
 }
 
-a{
-  color: red !important ;
-  text-decoration: none !important;
+body{
+  /* padding: 20px; */
+  margin: 90px;
 }
+
 nav a{
-  float: left;
+  /* color: #98baae ; */
   /* width: 33.33%; */
+  float: left;
+  color: #B8DCD0 ;
+  text-decoration: none !important;
   padding: 30px;
+  margin-top: 15px;
 }
 
 #logo{
   font-size: 30px;
   float: left;
+  /* color: #98baae ; */
+  padding: 20px;
+}
+
+#home{
+  color: #98baae;
+}
+
+.button{
+  background-color: #98baae;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: 2px solid #98baae;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.button-footer{
+  background-color: #98baae;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border: 2px solid #98baae;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.segura-cont{
+  background-color: red;
+  width: 30%;
+  margin-left: 5px;
+  padding: 15px;
+  float: left;
+}
+
+.segura-cont span{
+  line-height: 30px;
+}
+
+
+.segura-foot{
+  /* clear: left; */
+  background-color: #B8DCD0;
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.segura-foot p{
+  text-align: left;
+}
+
+#direitos{
+  text-align: center;
 }
