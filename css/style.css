@@ -1,21 +1,19 @@
 #img-topo{
-  /* margin-left: -90px ;
-  margin-top: -80px; */
   height: 40px;
   width: 120%;
   background-image: url("../image/bg01.png");
 }
 
 body{
-  /* padding: 20px; */
-  /* margin: 90px; */
   position: relative;
   font-family: "Arial";
-}
 
+}
+p, .segura-cont h3, .spans{
+  color: grey;
+  font-size: 15px;
+}
 nav a{
-  /* color: #98baae ; */
-  /* width: 33.33%; */
   float: left;
   color: #B8DCD0 ;
   text-decoration: none !important;
@@ -25,61 +23,64 @@ nav a{
 }
 
 #logo{
-  font-size: 30px;
+  font-size: 25px;
   float: left;
-  /* color: #98baae ; */
+  margin-left: -20px;
   padding: 20px;
 }
 
 #home{
-  color: #98baae;
+  color: #94C5B5;
 }
 
-.button{
-  background-color: #98baae;
+button{
+  background-color: #94C5B5;
   color: white;
   width: 120px;
   height: 40px;
-  border: 2px solid #98baae;
+  border: 2px solid #94C5B5;
   padding: 5px;
   border-radius: 6px;
-}
-
-.button-footer{
-  background-color: #98baae;
-  color: white;
-  width: 120px;
-  height: 40px;
-  border: 2px solid #98baae;
-  padding: 5px;
-  border-radius: 6px;
+  font-weight: 900;
 }
 
 .segura-cont{
-  margin-left: -4px;
   width: 25%;
-  margin-left: 5px;
   float: left;
+  position: relative;
+  margin-right: 20px;
 }
 
 .segura-cont span{
   line-height: 30px;
 }
+.segura-cont p{
+  /* line-height: 20px; */
+  font-size: 10px;
+}
+main{
+  clear: left;
+}
 
-
-.segura-foot{
-  /* clear: left; */
-  background-image: url("../image/bg01.png");
-  height: 40px;
-  width: 33%;
+section{
   float: left;
-  text-align: center;
+  margin-top: 45px;
+  background-image: url("../image/bg01.png");
 }
 
-.segura-foot p{
-  text-align: left;
+.button-footer{
+  background-color: #94C5B5;
+  color: white;
+  width: 220px;
+  height: 40px;
+  border: 2px solid #94C5B5;
+  border-radius: 6px;
 }
 
-#direitos{
+footer{
+  font-weight: 900 !important;
+  margin-top: 3%;
+  clear: both;
   text-align: center;
+
 }
