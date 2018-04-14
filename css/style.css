@@ -1,7 +1,15 @@
 #img-topo{
   height: 40px;
-  width: 120%;
+  width: 105%;
+  margin-top: 20px;
   background-image: url("../image/bg01.png");
+}
+header{
+  margin-left: 200px;
+}
+
+.segura-cont-pai{
+  margin-left: 200px;
 }
 
 body{
@@ -13,6 +21,9 @@ p, .segura-cont h3, .spans{
   color: grey;
   font-size: 15px;
 }
+
+
+
 nav a{
   float: left;
   color: #B8DCD0 ;
@@ -33,7 +44,8 @@ nav a{
   color: #94C5B5;
 }
 
-button{
+.button{
+  font-size: 11.7px;
   background-color: #94C5B5;
   color: white;
   width: 120px;
@@ -41,28 +53,33 @@ button{
   border: 2px solid #94C5B5;
   padding: 5px;
   border-radius: 6px;
-  font-weight: 900;
+  font-weight: 700;
 }
 
 .segura-cont{
   width: 25%;
   float: left;
   position: relative;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 .segura-cont span{
   line-height: 30px;
 }
 .segura-cont p{
-  /* line-height: 20px; */
+  line-height: 20px;
   font-size: 10px;
 }
 main{
   clear: left;
 }
 
-section{
+h2{
+  margin-bottom: 30px;
+}
+
+.segura-cont-fund{
+  width: 105%;
   float: left;
   margin-top: 45px;
   background-image: url("../image/bg01.png");
@@ -70,6 +87,9 @@ section{
 
 .button-footer{
   background-color: #94C5B5;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: 900;
   color: white;
   width: 220px;
   height: 40px;
@@ -78,9 +98,15 @@ section{
 }
 
 footer{
-  font-weight: 900 !important;
-  margin-top: 3%;
-  clear: both;
-  text-align: center;
+  height: 70px;
+  font-weight: 800;
+  float: left;
+  margin-left: 40%
+}
 
+#direitos{
+  color: black;
+  opacity: 0.7;
+  font-size: 10px;
+  margin-top: 20px;
 }
