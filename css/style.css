@@ -6,7 +6,6 @@ header{
   width: 100%;
   height: 70px;
   margin-top: 26px;
-  margin-bottom: 10px;
   background: yellow;
   /* text-align: center; */
 }
@@ -28,23 +27,141 @@ h1{
   margin-top: 1.6%;
   margin-left: 18%;
   margin-right: 2%;
-  background-color: red;
-  color: white;
+  color: blue;
   font-size: 26px;
+  transition: 0.2s;
+}
+h1:hover{
+  color: green;
+  border: 50px none blue;
 }
 
 
 nav a{
+  color: black;
+  width: 20px;
   margin-right: 4%;
   text-decoration: none;
+  /* border: 5px solid blue; */
+  transition: 0.2s;
+}
+nav a:hover{
+  color: green;
+  margin-right: 4%;
+  /* text-decoration: none; */
+  /* text-decoration: solid; */
   border: 50px none blue;
 }
 
 main{
   background-color: red;
+  width: 100%;
+  height: 700px;
 }
 
+#segura-img{
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  margin-top: 20px;
+  position: relative;
+}
 
+section{
+  width: 80%;
+  /* height: 1000px; */
+  margin-left: 10%;
+  /* background-color: red; */
+}
+
+#img0{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.text-img{
+  /* background-color: white; */
+  /* margin-top: -30%; */
+  position: absolute;
+  /* width: 29%;
+  margin-left: 10%; */
+  /* margin-top: 1px; */
+  z-index: 1;
+  top: 274px;
+  left: 234px;
+  width: 40%;
+}
+
+p{
+    /* background-color: blue; */
+    font-family: "Arial", serif;
+    font-size: 30pt;
+
+}
+b{
+  font-family: "Arial", serif;
+  font-size: 18pt;
+}
+strong{
+    /* background-color: red; */
+    font-family: "Arial", serif;
+    margin-top: 100px;
+}
+
+#span-img{
+  font-family: "Arial", serif;
+  font-size: 14pt;
+  /* background-color: red; */
+}
+
+.segura-cont{
+  /* position: absolute; */
+  float: left;
+  width: 80%;
+  height: auto;
+  /* opacity: 0.7; */
+  /* background-color: green; */
+  margin-top: -34px;
+  z-index: 2
+}
+
+.segura-segura-cont-div-art{
+  background-color: white;
+  width: 100%;
+  height: 400px;
+}
+
+.segura-cont-div-img{
+  width: 100%;
+  height: auto;
+}
+
+#bem-vindo{
+  position: relative;
+  top: -500px;
+}
+.segura-cont-div-art{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 70%;
+  height: 400px;
+  background-color: yellow;
+  font-family: "Arial";
+}
+
+h2{
+  font-size: 25pt;
+}
+
+#h2-bem{
+  position: relative;
+  margin-bottom: 20px;
+}
+.segura-cont-div-art span{
+  line-height: 26px;
+
+}
 footer{
   background-color: green;
 }
