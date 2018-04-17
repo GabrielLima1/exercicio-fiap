@@ -19,7 +19,6 @@ nav{
   text-align: center;
 }
 
-
 h1{
   float: left;
   text-align: center;
@@ -50,9 +49,8 @@ nav a:hover{
 }
 
 main{
-  /* background-color: red; */
+  background-color: red;
   width: 100%;
-  height: 700px;
 }
 
 #segura-img{
@@ -61,9 +59,10 @@ main{
 }
 
 section{
-  width: 80%;
+  width: 100%;
+  /* margin-left: -100px; */
   /* height: 1000px; */
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 #img0{
@@ -102,7 +101,7 @@ strong{
 
 .segura-cont{
   float: left;
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-top: -34px;
   z-index: 2
@@ -114,13 +113,17 @@ strong{
 }
 
 .segura-cont-div-img{
+  position: relative;
+  z-index: 3;
+  top: -100px;
   width: 100%;
-  height: auto;
 }
 
 #bem-vindo{
   position: relative;
-  top: -500px;
+  top: -650px;
+  z-index: 4;
+  font-size: 10pt;
 }
 
 .segura-cont-div-art{
@@ -149,6 +152,63 @@ h2{
   top: 20px;
 }
 
+.button-bem{
+  background-color: #1D2538;
+  opacity: 0.7;
+  border: 2px solid #141a28;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: relative;
+  top: 50px;
+}
+
+.segura-cont-art{
+  transition: 0.2s;
+  font-family: "Arial", serif;
+  color: white;
+  width: 40%;
+  padding: 10px 10px 20px 10px;
+  /* border: 1px solid #BFBFBF; */
+  background-color: #3e6287;
+  /* background-color: #2b3f53; */
+  /* box-shadow: 10px 10px 5px #aaaaaa; */
+  position: relative;
+  z-index: 5;
+  top: -600px;
+  left: 5%;
+  float: left;
+  height: 450px;
+  padding: 15px;
+  /* width: 50%;
+  background-color: red; */
+}
+
+#art-2{
+  margin-left: 5%;
+}
+
+.segura-cont-art::after{
+  content: "";
+  background-image: url("../image/bg00.png");
+  opacity: 0.5;
+  top: 0;
+  left: 30px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* .segura-cont-art:hover {
+  transform: translate(20px, 20px);
+} */
+
 .button-art{
   background-color: #1D2538;
   opacity: 0.7;
@@ -159,13 +219,11 @@ h2{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   position: relative;
-  top: 40px;
+  top: 20px;
+  left: 170px;
 }
-
-
 footer{
   /* background-color: green; */
 }
