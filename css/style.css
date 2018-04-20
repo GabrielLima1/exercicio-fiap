@@ -141,7 +141,7 @@ strong{
   background-repeat: no-repeat;
   width: 100%;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 0px #0000002b;
   font-family: "Arial";
 }
 .segura-cont-div-art{
